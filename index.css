@@ -1,0 +1,70 @@
+body {
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background: fixed;
+    background-color: #1c2945;
+    border-radius: 10px;
+    padding-bottom: 68px;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    height: 120px;
+    padding-top: 30px;
+    background: #080001;
+    border-radius: 5px;
+}
+
+/* Below code will allow to move background according to our score */
+h2 {
+    text-align: center;
+}
+
+h2 span {
+    font-size: 90px;
+    height: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #080001;
+}
+
+/*********************************************************************/
+
+#rst-btn {
+    margin-top: 175px;
+    font-size: 25px;
+    padding-top: 13px;
+    border: double;
+}
+
+button {
+    background-color: none;
+    box-sizing: border-box;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #9AABDB;
+    border: 2px solid #9AABD8;
+    background-color: transparent;
+    border-radius: 5px;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.title {
+    margin: 68 auto 0 auto;
+    width: 149px;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    color: whitesmoke;
+}
